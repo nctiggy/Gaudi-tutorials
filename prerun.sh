@@ -7,4 +7,4 @@ cd optimum-habana
 git checkout v1.10.4 
 cd examples/language-modeling/
 pip install -q -r requirements.txt
-huggingface-cli login --token 
+huggingface-cli login --token $(echo $HF_TOKEN)
