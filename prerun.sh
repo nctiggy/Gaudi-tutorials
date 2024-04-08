@@ -1,4 +1,4 @@
-cd ./Gaudi-tutorials/PyTorch/llama2_fine_tuning_inference
+cd /cnvrg/PyTorch/llama2_fine_tuning_inference
 pip install -q git+https://github.com/HabanaAI/DeepSpeed.git@1.14.0
 pip install peft==0.8.2
 pip install -q optimum-habana==1.10.4
